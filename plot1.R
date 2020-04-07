@@ -1,4 +1,5 @@
 # Import downloaded data
+# The file should be downloaded and selected in this process
 data1 <- read.table(file.choose(), header=TRUE, sep=";", dec=".", na.strings = "?",
                 colClasses = c('character','character','numeric','numeric','numeric',
                                'numeric','numeric','numeric','numeric'))
